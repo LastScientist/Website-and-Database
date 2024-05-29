@@ -7,6 +7,7 @@ these are premade username and passwords for each role
 id:  1, 2, 3, 4  
 username:  attendee1, participant1, organizer1, admin1   
 password:  attendee1, participant1, organizer1, admin1
+
 role:  attendee, participant, organizer, admin
 
 
