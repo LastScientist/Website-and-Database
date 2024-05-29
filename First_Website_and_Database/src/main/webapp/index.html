@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Open JSP File</title>
+
+<script>
+window.onload = function() {
+    // Get the current URL of the HTML file
+    var currentUrl = window.location.href;
+    
+    // Extract the directory path
+    var directoryPath = currentUrl.substring(0, currentUrl.lastIndexOf("/") + 1);
+    
+    // Construct the URL of the JSP file
+    var jspFilePath = directoryPath + "login.jsp";
+    
+    // Open the JSP file in a new tab/window
+    window.open(jspFilePath, "_blank");
+};
+</script>
+
+</head>
+<body>
+<!-- No need for a button -->
+</body>
+</html>
